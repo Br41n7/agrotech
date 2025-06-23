@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard - AgriSmart{% endblock %}
+
+{% block content %}
+<div <class="container mt-4">
+    <div class="card shadow-sm p-3 mb-5">
+        <h5>Hi, {{user.username}}</h5>
+        <p class="plan">{{status}}</p>
+        <p><strong>KeyUsed:</strong>{{Key}}3</p>
+
+        <p>welcome back</p>
+           </div>
+</div>
+
+  <!-- Ads section -->
+  <div class="mb-3">
+    <!-- <h6 class="text-muted">Ads</h6> -->
+    <!-- Optional: Add a carousel or ad banner here -->
+    <div class="bg-light p-4 rounded text-center">Ad Banner</div>
+  </div>
+
+<!-- Grid Menu -->
+<div class="row text-center">
+
+  <!-- Item 1 -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">🌟</div>
+        <div>profile</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">💡</div>
+        <div>blog</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 3 - Crop -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">🌾</div>
+        <div>Crop</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 4 - Soil -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">🌱</div>
+        <div>Soil</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 5 - Plant (using your example 'plantcheck') -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">🌿</div>
+        <div>Plant</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 6 - Drone -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">🚁</div>
+        <div>Drone</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 7 - Settings -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">⚙️</div>
+        <div>Settings</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 8 - News -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">📰</div>
+        <div>News</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 9 - Blog -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">✍️</div>
+        <div>Blog</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 10 - Price -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">💲</div>
+        <div>Price</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 11 - Weather -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">☁️</div>
+        <div>Weather</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Item 12 - Weed -->
+  <div class="col-4 mb-4">
+    <a href="{% url 'dashboard ' %}" class="card h-100 text-decoration-none text-dark">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <div class="mb-2">🌱</div>
+        <div>Weed</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+ {% endblock %} 

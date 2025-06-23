@@ -1,0 +1,27 @@
+/* Custom CSS for AgriSmart Navigation (No Sidebar Specific Styles) */
+/* Optional: Add some styling for active nav links if not already in Bootstrap */
+.nav-link.active {
+    color: #fff;
+    /* White for active link on dark background */
+    font-weight: bold;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+}
+
+/* Adjust spacing for icons if needed */
+.nav-link .fas {
+    margin-right: 0.25rem;
+    /* Reduced margin for icons in horizontal nav */
+}
+
+
+/* You can add other global styles here */
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}

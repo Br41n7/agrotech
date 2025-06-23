@@ -1,0 +1,6 @@
+.greetbox {
+    height: 30hv;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+}
